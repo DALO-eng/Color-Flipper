@@ -25,6 +25,13 @@
   margin: 2rem;
 }
 
+.container .primary-buttons {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
 .container button {
   font-size: 2rem;
   color: #000;
@@ -41,4 +48,10 @@
 .container button:hover {
   background-color: #000;
   color: #fff;
+}
+
+@media (max-width: 768px) {
+  .container h1 {
+    font-size: 2rem;
+  }
 }
